@@ -174,7 +174,7 @@
 
           <!-- Right side -->
           <div class="level-right">
-            <p class="subtitle is-7"><strong>Published at:</strong> 20 okt 2018</p>
+            <p class="subtitle is-7"><strong>Published at:</strong> 21 okt 2018</p>
           </div>
         </nav>
 
