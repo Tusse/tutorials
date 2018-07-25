@@ -128,10 +128,9 @@
                             <strong><span class="far fa-object-group" style="margin-right: 5px;"></span>Kategorier:</strong>
                             
                             <ul style="list-style-type: none; margin-left: 0px;">
-                              <li><span class="fab fa-php" style="margin-right: 5px;"></span><a href="#">PHP</a></li>
-                              <li><span class="fab fa-laravel" style="margin-right: 5px;"></span><a href="#">Laravel</a></li>
-                              <li><span class="fab fa-github-square" style="margin-right: 10px;"></span><a href="#">GitHub</a></li>
-                              <li><span class="fab fa-git" style="margin-right: 10px;"></span><a href="#">Git</a></li>
+                              @foreach ($links as $link)
+                              <li><span class="{{ $link -> icon }}" style="margin-right: 5px;"></span><a href="{{ $link -> url }}">{{ $link -> name }}</a></li>
+                              @endforeach
                             </ul>
                         </div>
                         <nav class="level is-mobile">

@@ -15,9 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/start', function () {
-    return view('pages.start');
-});
+//Route::get('/start', function () {
+//    return view('pages.start');
+//});
+
+Route::get('/start', 'LinkController@index')->name('start');
 
 Auth::routes();
 
