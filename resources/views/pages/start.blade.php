@@ -129,7 +129,7 @@
                             
                             <ul style="list-style-type: none; margin-left: 0px;">
                               @foreach ($links as $link)
-                              <li><span class="{{ $link -> icon }}" style="margin-right: 5px;"></span><a href="{{ $link -> url }}">{{ $link -> name }}</a></li>
+                              <li><span class="{{ $link -> icon }}" style="margin-right: {{ $link -> margin_right }};"></span><a href="{{ $link -> url }}">{{ $link -> name }}</a></li>
                               @endforeach
                             </ul>
                         </div>

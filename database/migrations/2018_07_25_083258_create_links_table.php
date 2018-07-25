@@ -18,6 +18,7 @@ class CreateLinksTable extends Migration
             $table->string('name')->nullable();
             $table->string('url')->nullable();
             $table->string('icon')->nullable();
+            $table->string('margin_right')->nullable();
             $table->timestamps();
         });
     }
